@@ -1,0 +1,6 @@
+[
+  {"check": "row_count",  "source_table": "orders", "target_table": "orders"},
+  {"check": "duplicate",  "table": "orders", "key": "order_id"},
+  {"check": "null_check", "table": "orders", "column": "customer_id"},
+  {"check": "aggregate",  "table": "orders", "column": "amount", "type": "sum"}
+]
