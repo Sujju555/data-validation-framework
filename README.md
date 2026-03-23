@@ -9,7 +9,7 @@ between source and target systems in ETL pipelines. Performs
 configurable data quality checks and stores results for auditing.
 
 ## Architecture
-```
+
 Source DB (RDS) → Python Engine → Target DB (RDS)
                        ↓
               S3 (validation_rules.json)
@@ -47,12 +47,12 @@ SELECT * FROM validation_audit ORDER BY run_timestamp DESC;
 ```
 ```
 
-**Step 4** — Commit message:
+Step 4 — Commit message:
 ```
 Updated README with project details
 ```
 
-**Step 5** — Click **`Commit changes`**
+Step 5 — Click `Commit changes`
 
 ---
 
